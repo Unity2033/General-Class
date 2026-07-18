@@ -1,0 +1,452 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nwond" at "2026-07-18T09:46:14.0582347Z"
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'ko' Physical Memory: 16317 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-07-18T09:46:14Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/nwond/OneDrive/바탕 화면/Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62097
+-licensingIpc
+LicenseClient-nwond
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/nwond/OneDrive/바탕 화면/Game
+C:/Users/nwond/OneDrive/바탕 화면/Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4072]  Target information:
+
+Player connection [4072]  * "[IP] 192.168.219.101 [Port] 0 [Flags] 2 [Guid] 17765706 [EditorId] 17765706 [Version] 1048832 [Id] WindowsEditor(7,Dinosaur) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4072] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4072] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16648, path: "C:/Users/nwond/OneDrive/바탕 화면/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              57b473bfed234a9d927404ae75e0cdbc
+  Correlation Id:          5e7d0f21cf24ad8cb66673a744b3c8c0
+  External correlation Id: 5400922633745882011
+  Machine Id:              vzHBHqQzprq0ab1zjqc1s15jH+s=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nwond" (connect: 0.00s, validation: 0.00s, handshake: 0.11s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nwond-notifications" at "2026-07-18T09:46:14.1720098Z"
+[Licensing::Module] Licensing Background thread has ended after 0.11s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nwond/OneDrive/바탕 화면/Game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 3060 (ID=0x2544)
+    Vendor:          NVIDIA
+    VRAM:            8036 MB
+    App VRAM Budget: 7268 MB
+    Driver:          32.0.16.1074
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14569174559127-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.012823 seconds.
+- Loaded All Assemblies, in  0.505 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 364 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.809 seconds
+Domain Reload Profiling: 1310ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (182ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (810ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (761ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (479ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.265 seconds
+Refreshing native plugins compatible for Editor in 3.57 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.88 ms, found 4 plugins.
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.013 seconds
+Domain Reload Profiling: 2267ms
+	BeginReloadAssembly (288ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (843ms)
+		LoadAssemblies (666ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (352ms)
+			TypeCache.Refresh (274ms)
+				TypeCache.ScanAssembly (252ms)
+			BuildScriptInfoCaches (60ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1014ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (742ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (183ms)
+			ProcessInitializeOnLoadAttributes (460ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6572 unused Assets / (4.3 MB). Loaded Objects now: 7266.
+Memory consumption went from 139.4 MB to 135.1 MB.
+Total: 11.269800 ms (FindLiveObjects: 1.397400 ms CreateObjectMapping: 0.832400 ms MarkObjects: 5.961000 ms  DeleteObjects: 3.077800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 244678.740508 seconds.
+  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-4_comp_light.exr
+  artifactKey: Guid(8b75f6aab3c25084285eff32b57df825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-4_comp_light.exr using Guid(8b75f6aab3c25084285eff32b57df825) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24248b5283e3cec28dc9aae954310ef3') in 0.1202467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(0423a776ad246ed4388cace59d83f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-1_comp_shadowmask.png using Guid(0423a776ad246ed4388cace59d83f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e7bf467924c04ad32c3f4c9b487b10a') in 0.0222544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-1_comp_light.exr
+  artifactKey: Guid(af944c413214b374cab3bbacdfb84ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-1_comp_light.exr using Guid(af944c413214b374cab3bbacdfb84ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72afbe33af096628d77d8176ae7a59ad') in 0.0191803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-2_comp_light.exr
+  artifactKey: Guid(6dd15ae183d73754bbc88fcc01ba2691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-2_comp_light.exr using Guid(6dd15ae183d73754bbc88fcc01ba2691) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b3994ba375c96617d6cf068c3f99155') in 0.0185176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-3_comp_dir.png
+  artifactKey: Guid(12a5b46ec5f20364f896846943635a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-3_comp_dir.png using Guid(12a5b46ec5f20364f896846943635a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a8117286bf22b62e2c63003b453dbcb') in 0.027847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-2_comp_shadowmask.png
+  artifactKey: Guid(f2fab69eecb16c742a52022004d068cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-2_comp_shadowmask.png using Guid(f2fab69eecb16c742a52022004d068cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a8788525c7047f022bf7ddcb1f555e0') in 0.020031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-3_comp_shadowmask.png
+  artifactKey: Guid(ce61725a2c1d1e14a81d2c7973f99413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-3_comp_shadowmask.png using Guid(ce61725a2c1d1e14a81d2c7973f99413) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '893c22280f324ba8bd72ca7a3ca3eba3') in 0.0398828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-0_comp_dir.png
+  artifactKey: Guid(bf558e8f8d273ae47b7e5ed02ce8d617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-0_comp_dir.png using Guid(bf558e8f8d273ae47b7e5ed02ce8d617) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fb2a78fe82c81abc063d6594fd6d255') in 0.0192734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-1_comp_dir.png
+  artifactKey: Guid(75d8bda32e3a36b498550948469b75b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-1_comp_dir.png using Guid(75d8bda32e3a36b498550948469b75b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f53b7ac3ea3ffa94ff907ba4db149ae') in 0.0185625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-0_comp_light.exr
+  artifactKey: Guid(d1962c0c049718746bb583c2530c6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-0_comp_light.exr using Guid(d1962c0c049718746bb583c2530c6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae0a431897b0a95d402a57b158bc3085') in 0.0184996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-3_comp_light.exr
+  artifactKey: Guid(2e7a380ee98115f44a0f47d23a35330f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-3_comp_light.exr using Guid(2e7a380ee98115f44a0f47d23a35330f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54a681e6a916723fc939c81af92026bf') in 0.0194017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/VRCinemaforMobile/Scenes/Demo.unity
+  artifactKey: Guid(5f4c6eb2bcbc88b44861f4a5613576c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Scenes/Demo.unity using Guid(5f4c6eb2bcbc88b44861f4a5613576c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfe0bf269e394f327deb2af102b549ac') in 0.0008279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/ReflectionProbe-1.exr
+  artifactKey: Guid(a724ed377b71bd04dad88552e64f23f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/ReflectionProbe-1.exr using Guid(a724ed377b71bd04dad88552e64f23f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '977420c59032b5fb260ffc419a2b1bdd') in 0.5382897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.003011 seconds.
+  path: Assets/VRCinemaforMobile/Metrials/Door.mat
+  artifactKey: Guid(daa9e5856c364714d975776927d589b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Metrials/Door.mat using Guid(daa9e5856c364714d975776927d589b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce1b86ae238b994e1f94b7a36c5a45d0') in 0.0727845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/VRCinemaforMobile/Metrials/Theater_DarkWall.mat
+  artifactKey: Guid(7af375540438d364eb63d237a99444de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Metrials/Theater_DarkWall.mat using Guid(7af375540438d364eb63d237a99444de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f43a494f6322997946fb75462571119') in 0.0116458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/VRCinemaforMobile/Metrials/Theater_Wall.mat
+  artifactKey: Guid(2db543d0218394b4598a4164c41cea04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Metrials/Theater_Wall.mat using Guid(2db543d0218394b4598a4164c41cea04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69debc022d45b67779f414153615c21c') in 0.015883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/VRCinemaforMobile/Metrials/StairsGuide.mat
+  artifactKey: Guid(162f62641e6b63b4b943fad90f8c25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Metrials/StairsGuide.mat using Guid(162f62641e6b63b4b943fad90f8c25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db9cb1039f479b6e438d7e65d1c97043') in 0.0778169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.330842 seconds.
+  path: Assets/VRCinemaforMobile/Meshs/Mask00.FBX
+  artifactKey: Guid(4adb31b0beb9f1e42b0383687af6aa35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Meshs/Mask00.FBX using Guid(4adb31b0beb9f1e42b0383687af6aa35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01ff25934cd5b38cad8474196f576b38') in 4.2482616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/VRCinemaforMobile/Meshs/RoomTest.FBX
+  artifactKey: Guid(ac161ff8aa030f14790645728846eea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Meshs/RoomTest.FBX using Guid(ac161ff8aa030f14790645728846eea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d334ceec9d8df64433b063fd0b46af4') in 0.2849994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 104
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.149166 seconds.
+  path: Assets/VRCinemaforMobile/Metrials/Screen/RenderTextureTest.mat
+  artifactKey: Guid(93066abf14ec4de4bb8691a83639e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Metrials/Screen/RenderTextureTest.mat using Guid(93066abf14ec4de4bb8691a83639e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e058900e8b1d62e822fce58693d88494') in 0.0150551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/VRCinemaforMobile/Metrials/Screen/ScreenMat.mat
+  artifactKey: Guid(ea4d2ec37f268034285097a4b2baf785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Metrials/Screen/ScreenMat.mat using Guid(ea4d2ec37f268034285097a4b2baf785) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0af407d71cb781c0f7a27ad47aa35c8c') in 0.0154776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.754433 seconds.
+  path: Assets/VRCinemaforMobile/Metrials/Screen/RenderTextureTest.mat
+  artifactKey: Guid(93066abf14ec4de4bb8691a83639e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Metrials/Screen/RenderTextureTest.mat using Guid(93066abf14ec4de4bb8691a83639e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac0f8d48ba91dfb32ff6d6d42fd95998') in 0.0498791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/VRCinemaforMobile/Metrials/Screen/ScreenMat.mat
+  artifactKey: Guid(ea4d2ec37f268034285097a4b2baf785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Metrials/Screen/ScreenMat.mat using Guid(ea4d2ec37f268034285097a4b2baf785) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '913e69d01c334d2d13d40b68678d7d0b') in 0.0227747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.670308 seconds.
+  path: Assets/VRCinemaforMobile/Metrials/Light/ScreenBounceMat.mat
+  artifactKey: Guid(9d0a0f0d6028f8b40a61f8d53eb41d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Metrials/Light/ScreenBounceMat.mat using Guid(9d0a0f0d6028f8b40a61f8d53eb41d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b24df9dcc6544a6ebaae739ba6e64a3b') in 0.0485478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.352580 seconds.
+  path: Assets/VRCinemaforMobile/Metrials/Light/ScreenLight_20.mat
+  artifactKey: Guid(ad24a980ec5072c4f835a826b86af070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Metrials/Light/ScreenLight_20.mat using Guid(ad24a980ec5072c4f835a826b86af070) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93e50d815797c9d73dbad5dca4715dc5') in 0.0419512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.638983 seconds.
+  path: Assets/VRCinemaforMobile/Metrials/FX/Eff_Lamp.mat
+  artifactKey: Guid(fb5c6d23b4620944c8d2c280a0644922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Metrials/FX/Eff_Lamp.mat using Guid(fb5c6d23b4620944c8d2c280a0644922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '584c28b323cbca155617c9cc804e7cd5') in 0.1144335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/VRCinemaforMobile/Metrials/FX/Glow00.mat
+  artifactKey: Guid(cb33e05e35a5c1d49ac0194881e418a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Metrials/FX/Glow00.mat using Guid(cb33e05e35a5c1d49ac0194881e418a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b34014b6a8fa3af7cceda4166226b564') in 0.1052405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.528836 seconds.
+  path: Assets/VRCinemaforMobile/Metrials/FX/Eff_Projector.mat
+  artifactKey: Guid(cccee4df6c01b5b4ba476cfb3202f2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCinemaforMobile/Metrials/FX/Eff_Projector.mat using Guid(cccee4df6c01b5b4ba476cfb3202f2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ab35f82d7c5358686f9123c4343a074') in 4.4871598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
