@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nwond" at "2026-07-18T09:46:14.0582347Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nwond" at "2026-07-19T04:18:06.8274449Z"
 OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'ko' Physical Memory: 16317 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-07-18T09:46:14Z
+Date: 2026-07-19T04:18:06Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe
@@ -13,13 +13,11 @@ C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/nwond/OneDrive/바탕 화면/Game
+C:/Users/nwond/OneDrive/바탕 화면/Anomalous/Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62097
--licensingIpc
-LicenseClient-nwond
+53307
 -job-worker-count
 5
 -background-job-worker-count
@@ -28,8 +26,8 @@ LicenseClient-nwond
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/nwond/OneDrive/바탕 화면/Game
-C:/Users/nwond/OneDrive/바탕 화면/Game
+Successfully changed project path to: C:/Users/nwond/OneDrive/바탕 화면/Anomalous/Game
+C:/Users/nwond/OneDrive/바탕 화면/Anomalous/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -65,27 +63,27 @@ C:/Users/nwond/OneDrive/바탕 화면/Game
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4072]  Target information:
+Player connection [1176]  Target information:
 
-Player connection [4072]  * "[IP] 192.168.219.101 [Port] 0 [Flags] 2 [Guid] 17765706 [EditorId] 17765706 [Version] 1048832 [Id] WindowsEditor(7,Dinosaur) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [1176]  * "[IP] 192.168.219.101 [Port] 0 [Flags] 2 [Guid] 2678890351 [EditorId] 2678890351 [Version] 1048832 [Id] WindowsEditor(7,Dinosaur) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [4072] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [4072] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1176] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [1176] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 16648, path: "C:/Users/nwond/OneDrive/바탕 화면/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1100, path: "C:/Users/nwond/OneDrive/바탕 화면/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              57b473bfed234a9d927404ae75e0cdbc
-  Correlation Id:          5e7d0f21cf24ad8cb66673a744b3c8c0
-  External correlation Id: 5400922633745882011
+  Session Id:              01917aeb1ff448ffbc4cfe169c25fec1
+  Correlation Id:          d863b282e3356dcab47bff09895d2b87
+  External correlation Id: 7834552971708362108
   Machine Id:              vzHBHqQzprq0ab1zjqc1s15jH+s=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nwond" (connect: 0.00s, validation: 0.00s, handshake: 0.11s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nwond-notifications" at "2026-07-18T09:46:14.1720098Z"
-[Licensing::Module] Licensing Background thread has ended after 0.11s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nwond" (connect: 0.00s, validation: 0.00s, handshake: 0.12s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nwond-notifications" at "2026-07-19T04:18:06.9453891Z"
+[Licensing::Module] Licensing Background thread has ended after 0.12s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -93,11 +91,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 5.55 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.92 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/nwond/OneDrive/바탕 화면/Game/Assets
+[Subsystems] Discovering subsystems at path C:/Users/nwond/OneDrive/바탕 화면/Anomalous/Game/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 d3d12: failed to query info queue interface (0x80004002).
 Direct3D:
@@ -111,7 +109,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56484
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -125,45 +123,43 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.012823 seconds.
-- Loaded All Assemblies, in  0.505 seconds
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
+Registered in 0.015542 seconds.
+- Loaded All Assemblies, in  0.719 seconds
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 364 ms
+Android Extension - Scanning For ADB Devices 423 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.809 seconds
-Domain Reload Profiling: 1310ms
-	BeginReloadAssembly (172ms)
+- Finished resetting the current domain, in  0.994 seconds
+Domain Reload Profiling: 1707ms
+	BeginReloadAssembly (287ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (204ms)
-		LoadAssemblies (168ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (269ms)
+		LoadAssemblies (282ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (199ms)
-			TypeCache.Refresh (197ms)
-				TypeCache.ScanAssembly (182ms)
+		AnalyzeDomain (263ms)
+			TypeCache.Refresh (260ms)
+				TypeCache.ScanAssembly (239ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (810ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (994ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (761ms)
+		SetupLoadedEditorAssemblies (926ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (479ms)
+			InitializePlatformSupportModulesInManaged (563ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (137ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -173,280 +169,478 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.265 seconds
-Refreshing native plugins compatible for Editor in 3.57 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.637 seconds
+Refreshing native plugins compatible for Editor in 2.99 ms, found 4 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 3.88 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.81 ms, found 4 plugins.
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.013 seconds
-Domain Reload Profiling: 2267ms
-	BeginReloadAssembly (288ms)
+- Finished resetting the current domain, in  1.071 seconds
+Domain Reload Profiling: 2695ms
+	BeginReloadAssembly (307ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (843ms)
-		LoadAssemblies (666ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (1166ms)
+		LoadAssemblies (981ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (352ms)
-			TypeCache.Refresh (274ms)
-				TypeCache.ScanAssembly (252ms)
-			BuildScriptInfoCaches (60ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1014ms)
+		AnalyzeDomain (375ms)
+			TypeCache.Refresh (295ms)
+				TypeCache.ScanAssembly (272ms)
+			BuildScriptInfoCaches (63ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1072ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (742ms)
+		SetupLoadedEditorAssemblies (897ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
+			InitializePlatformSupportModulesInManaged (22ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (183ms)
-			ProcessInitializeOnLoadAttributes (460ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (222ms)
+			ProcessInitializeOnLoadAttributes (559ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 3.58 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.94 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6572 unused Assets / (4.3 MB). Loaded Objects now: 7266.
-Memory consumption went from 139.4 MB to 135.1 MB.
-Total: 11.269800 ms (FindLiveObjects: 1.397400 ms CreateObjectMapping: 0.832400 ms MarkObjects: 5.961000 ms  DeleteObjects: 3.077800 ms)
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6591 unused Assets / (6.5 MB). Loaded Objects now: 7138.
+Memory consumption went from 140.1 MB to 133.7 MB.
+Total: 12.388000 ms (FindLiveObjects: 1.188700 ms CreateObjectMapping: 1.005300 ms MarkObjects: 5.824900 ms  DeleteObjects: 4.367000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 244678.740508 seconds.
-  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-4_comp_light.exr
-  artifactKey: Guid(8b75f6aab3c25084285eff32b57df825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-4_comp_light.exr using Guid(8b75f6aab3c25084285eff32b57df825) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24248b5283e3cec28dc9aae954310ef3') in 0.1202467 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 66286.071332 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11203590c78985956de4441220bf2db3') in 0.0390337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-1_comp_shadowmask.png
-  artifactKey: Guid(0423a776ad246ed4388cace59d83f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-1_comp_shadowmask.png using Guid(0423a776ad246ed4388cace59d83f672) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e7bf467924c04ad32c3f4c9b487b10a') in 0.0222544 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 17.559771 seconds.
+  path: Assets/Video Players/Screen.mp4
+  artifactKey: Guid(7a7052fb086cf5e48bf88c3b47057a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Video Players/Screen.mp4 using Guid(7a7052fb086cf5e48bf88c3b47057a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b688863c40e913edbc4b4b826ddd3d96') in 0.1770771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-1_comp_light.exr
-  artifactKey: Guid(af944c413214b374cab3bbacdfb84ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-1_comp_light.exr using Guid(af944c413214b374cab3bbacdfb84ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72afbe33af096628d77d8176ae7a59ad') in 0.0191803 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-2_comp_light.exr
-  artifactKey: Guid(6dd15ae183d73754bbc88fcc01ba2691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-2_comp_light.exr using Guid(6dd15ae183d73754bbc88fcc01ba2691) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b3994ba375c96617d6cf068c3f99155') in 0.0185176 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-3_comp_dir.png
-  artifactKey: Guid(12a5b46ec5f20364f896846943635a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-3_comp_dir.png using Guid(12a5b46ec5f20364f896846943635a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a8117286bf22b62e2c63003b453dbcb') in 0.027847 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-2_comp_shadowmask.png
-  artifactKey: Guid(f2fab69eecb16c742a52022004d068cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-2_comp_shadowmask.png using Guid(f2fab69eecb16c742a52022004d068cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a8788525c7047f022bf7ddcb1f555e0') in 0.020031 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.558469 seconds.
+  path: Assets/Settings/DefaultVolumeProfile.asset
+  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b8edb6ac5fccd364bcb185d2b081644') in 0.011224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000044 seconds.
-  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-3_comp_shadowmask.png
-  artifactKey: Guid(ce61725a2c1d1e14a81d2c7973f99413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-3_comp_shadowmask.png using Guid(ce61725a2c1d1e14a81d2c7973f99413) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '893c22280f324ba8bd72ca7a3ca3eba3') in 0.0398828 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fda33ae0c62d49442dcccd105e0e1850') in 0.010678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-0_comp_dir.png
-  artifactKey: Guid(bf558e8f8d273ae47b7e5ed02ce8d617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-0_comp_dir.png using Guid(bf558e8f8d273ae47b7e5ed02ce8d617) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fb2a78fe82c81abc063d6594fd6d255') in 0.0192734 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-1_comp_dir.png
-  artifactKey: Guid(75d8bda32e3a36b498550948469b75b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-1_comp_dir.png using Guid(75d8bda32e3a36b498550948469b75b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f53b7ac3ea3ffa94ff907ba4db149ae') in 0.0185625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-0_comp_light.exr
-  artifactKey: Guid(d1962c0c049718746bb583c2530c6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-0_comp_light.exr using Guid(d1962c0c049718746bb583c2530c6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae0a431897b0a95d402a57b158bc3085') in 0.0184996 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-3_comp_light.exr
-  artifactKey: Guid(2e7a380ee98115f44a0f47d23a35330f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/Lightmap-3_comp_light.exr using Guid(2e7a380ee98115f44a0f47d23a35330f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54a681e6a916723fc939c81af92026bf') in 0.0194017 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/VRCinemaforMobile/Scenes/Demo.unity
-  artifactKey: Guid(5f4c6eb2bcbc88b44861f4a5613576c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Scenes/Demo.unity using Guid(5f4c6eb2bcbc88b44861f4a5613576c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfe0bf269e394f327deb2af102b549ac') in 0.0008279 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/VRCinemaforMobile/Scenes/Example_Projector/ReflectionProbe-1.exr
-  artifactKey: Guid(a724ed377b71bd04dad88552e64f23f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Scenes/Example_Projector/ReflectionProbe-1.exr using Guid(a724ed377b71bd04dad88552e64f23f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '977420c59032b5fb260ffc419a2b1bdd') in 0.5382897 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.003011 seconds.
-  path: Assets/VRCinemaforMobile/Metrials/Door.mat
-  artifactKey: Guid(daa9e5856c364714d975776927d589b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Metrials/Door.mat using Guid(daa9e5856c364714d975776927d589b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce1b86ae238b994e1f94b7a36c5a45d0') in 0.0727845 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/VRCinemaforMobile/Metrials/Theater_DarkWall.mat
-  artifactKey: Guid(7af375540438d364eb63d237a99444de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Metrials/Theater_DarkWall.mat using Guid(7af375540438d364eb63d237a99444de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f43a494f6322997946fb75462571119') in 0.0116458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/VRCinemaforMobile/Metrials/Theater_Wall.mat
-  artifactKey: Guid(2db543d0218394b4598a4164c41cea04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Metrials/Theater_Wall.mat using Guid(2db543d0218394b4598a4164c41cea04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69debc022d45b67779f414153615c21c') in 0.015883 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/VRCinemaforMobile/Metrials/StairsGuide.mat
-  artifactKey: Guid(162f62641e6b63b4b943fad90f8c25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Metrials/StairsGuide.mat using Guid(162f62641e6b63b4b943fad90f8c25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db9cb1039f479b6e438d7e65d1c97043') in 0.0778169 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.330842 seconds.
-  path: Assets/VRCinemaforMobile/Meshs/Mask00.FBX
-  artifactKey: Guid(4adb31b0beb9f1e42b0383687af6aa35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Meshs/Mask00.FBX using Guid(4adb31b0beb9f1e42b0383687af6aa35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01ff25934cd5b38cad8474196f576b38') in 4.2482616 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+  Time since last request: 0.000043 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17fcfb8b3a54ed04c4a6a89312d2253d') in 0.0135827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000036 seconds.
-  path: Assets/VRCinemaforMobile/Meshs/RoomTest.FBX
-  artifactKey: Guid(ac161ff8aa030f14790645728846eea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Meshs/RoomTest.FBX using Guid(ac161ff8aa030f14790645728846eea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d334ceec9d8df64433b063fd0b46af4') in 0.2849994 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 104
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c2917905c2aba481135f2fe9921c5fe') in 0.0118004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 59
 
 ========================================================================
-Received Import Request.
-  Time since last request: 11.149166 seconds.
-  path: Assets/VRCinemaforMobile/Metrials/Screen/RenderTextureTest.mat
-  artifactKey: Guid(93066abf14ec4de4bb8691a83639e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Metrials/Screen/RenderTextureTest.mat using Guid(93066abf14ec4de4bb8691a83639e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e058900e8b1d62e822fce58693d88494') in 0.0150551 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 4.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (1.8 MB). Loaded Objects now: 7287.
+Memory consumption went from 143.7 MB to 141.9 MB.
+Total: 7.235000 ms (FindLiveObjects: 0.510600 ms CreateObjectMapping: 0.159200 ms MarkObjects: 6.017100 ms  DeleteObjects: 0.547300 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/VRCinemaforMobile/Metrials/Screen/ScreenMat.mat
-  artifactKey: Guid(ea4d2ec37f268034285097a4b2baf785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Metrials/Screen/ScreenMat.mat using Guid(ea4d2ec37f268034285097a4b2baf785) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0af407d71cb781c0f7a27ad47aa35c8c') in 0.0154776 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.754433 seconds.
-  path: Assets/VRCinemaforMobile/Metrials/Screen/RenderTextureTest.mat
-  artifactKey: Guid(93066abf14ec4de4bb8691a83639e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Metrials/Screen/RenderTextureTest.mat using Guid(93066abf14ec4de4bb8691a83639e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac0f8d48ba91dfb32ff6d6d42fd95998') in 0.0498791 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/VRCinemaforMobile/Metrials/Screen/ScreenMat.mat
-  artifactKey: Guid(ea4d2ec37f268034285097a4b2baf785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Metrials/Screen/ScreenMat.mat using Guid(ea4d2ec37f268034285097a4b2baf785) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '913e69d01c334d2d13d40b68678d7d0b') in 0.0227747 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.670308 seconds.
-  path: Assets/VRCinemaforMobile/Metrials/Light/ScreenBounceMat.mat
-  artifactKey: Guid(9d0a0f0d6028f8b40a61f8d53eb41d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Metrials/Light/ScreenBounceMat.mat using Guid(9d0a0f0d6028f8b40a61f8d53eb41d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b24df9dcc6544a6ebaae739ba6e64a3b') in 0.0485478 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.352580 seconds.
-  path: Assets/VRCinemaforMobile/Metrials/Light/ScreenLight_20.mat
-  artifactKey: Guid(ad24a980ec5072c4f835a826b86af070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Metrials/Light/ScreenLight_20.mat using Guid(ad24a980ec5072c4f835a826b86af070) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93e50d815797c9d73dbad5dca4715dc5') in 0.0419512 seconds
+  Time since last request: 5.285369 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Game.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32aa2f3c8ba1919048f80399a40cc33e') in 0.2307243 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.638983 seconds.
-  path: Assets/VRCinemaforMobile/Metrials/FX/Eff_Lamp.mat
-  artifactKey: Guid(fb5c6d23b4620944c8d2c280a0644922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Metrials/FX/Eff_Lamp.mat using Guid(fb5c6d23b4620944c8d2c280a0644922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '584c28b323cbca155617c9cc804e7cd5') in 0.1144335 seconds
+  Time since last request: 127.472989 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_M.png
+  artifactKey: Guid(b86fb20848ffead4eae4033d276cac3d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_M.png using Guid(b86fb20848ffead4eae4033d276cac3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '5dedb7579f3176331e468777dafb7b31') in 0.136757 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/VRCinemaforMobile/Metrials/FX/Glow00.mat
-  artifactKey: Guid(cb33e05e35a5c1d49ac0194881e418a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Metrials/FX/Glow00.mat using Guid(cb33e05e35a5c1d49ac0194881e418a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b34014b6a8fa3af7cceda4166226b564') in 0.1052405 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_BedBedding.tga
+  artifactKey: Guid(65fc25f6168a5594f8e69299285e76d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_BedBedding.tga using Guid(65fc25f6168a5594f8e69299285e76d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ed0380443126ad2c4b6a5dc2c351bd1') in 0.0282815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 78.528836 seconds.
-  path: Assets/VRCinemaforMobile/Metrials/FX/Eff_Projector.mat
-  artifactKey: Guid(cccee4df6c01b5b4ba476cfb3202f2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRCinemaforMobile/Metrials/FX/Eff_Projector.mat using Guid(cccee4df6c01b5b4ba476cfb3202f2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ab35f82d7c5358686f9123c4343a074') in 4.4871598 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Lamp.prefab
+  artifactKey: Guid(dc8f3955c063af240afd23143f496335) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Lamp.prefab using Guid(dc8f3955c063af240afd23143f496335) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd73f7430cd1c54291a5a0968cf480f30') in 0.029595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_E.png
+  artifactKey: Guid(fa12d4b1eb5b8f946ac445d33bf0eddc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_E.png using Guid(fa12d4b1eb5b8f946ac445d33bf0eddc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '338e320956e20982da58a86969e7962d') in 0.0244998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_G_N.png
+  artifactKey: Guid(96068c214ec55854a9b721fffd6570a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_G_N.png using Guid(96068c214ec55854a9b721fffd6570a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02238dcb24630959715cef662af91126') in 0.0258068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Med_box_01.FBX
+  artifactKey: Guid(18ce9342c786442408d15b750748b72c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Med_box_01.FBX using Guid(18ce9342c786442408d15b750748b72c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0421c00c67db8ba646bab5215d4b945c') in 0.0562382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Map_Hosp1.unity
+  artifactKey: Guid(b6ca1756db6b14945b4116ce8880ae82) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Map_Hosp1.unity using Guid(b6ca1756db6b14945b4116ce8880ae82) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15a1f2aa68010a9a7206f3821f3bd0c3') in 0.0189445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01_N.tga
+  artifactKey: Guid(ac78e263370d86646b803867f58812db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01_N.tga using Guid(ac78e263370d86646b803867f58812db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4b3ac3487584e138e2625d62903a435') in 0.0313958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Walllime02.mat
+  artifactKey: Guid(dd4ae9458a7d1694c8fa66432938e049) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Walllime02.mat using Guid(dd4ae9458a7d1694c8fa66432938e049) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '966eb4055837bfb8ef8281d6700ec252') in 0.0618155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Wall_01.prefab
+  artifactKey: Guid(a73967be39a7cc74ca310e8a9d9de82d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Wall_01.prefab using Guid(a73967be39a7cc74ca310e8a9d9de82d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c84c1cb858023fc667b0a78617e3c739') in 0.0249132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Ceiling_01.obj
+  artifactKey: Guid(fb6d3eae3b4e46e46a8b71b5faa7e6a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Ceiling_01.obj using Guid(fb6d3eae3b4e46e46a8b71b5faa7e6a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f5e79b134d824e398d859f49efd1a5bf') in 0.0264145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Med_box_01.prefab
+  artifactKey: Guid(eeefdd9044a28504abd5e39c9e8fe5d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Med_box_01.prefab using Guid(eeefdd9044a28504abd5e39c9e8fe5d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f66f2168c295f6b9a9fd742a9e3adc5') in 0.027226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Door_01_Base.prefab
+  artifactKey: Guid(6d0f69892e260164b9b56372f7556fdb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Door_01_Base.prefab using Guid(6d0f69892e260164b9b56372f7556fdb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46df2d2b0ecbaf53b3e775e92b445080') in 0.0172825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_BedBedding_N.tga
+  artifactKey: Guid(e6c17b59ff07a9e49990101f18210ea1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_BedBedding_N.tga using Guid(e6c17b59ff07a9e49990101f18210ea1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '500a05f93bbd36af135b55817abbb01e') in 0.0275026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01_N.psd
+  artifactKey: Guid(bfe7e5cf3ad491a4e84b3cb14ce08ce3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01_N.psd using Guid(bfe7e5cf3ad491a4e84b3cb14ce08ce3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd04e0cf78d775bd9f969ac3ed5d313f0') in 0.0318684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_N.png
+  artifactKey: Guid(75cc079cbae9eca4b923796faecd0ce5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_N.png using Guid(75cc079cbae9eca4b923796faecd0ce5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ead3419de0dcf9cef4a58a9b0a843f7') in 0.024995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Wall_02.prefab
+  artifactKey: Guid(a71dd1fa6efddfa41990980cd044de47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Wall_02.prefab using Guid(a71dd1fa6efddfa41990980cd044de47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61106459d2b87534036c1914dd7d99f1') in 0.0210134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Floor_02.prefab
+  artifactKey: Guid(695e9c39c231cfa41a135e68073a9772) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Floor_02.prefab using Guid(695e9c39c231cfa41a135e68073a9772) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98477aa61081649e4ff3dc7b07d2a6f2') in 0.0159378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Lamp.mat
+  artifactKey: Guid(6a26c29b0186b3949a52130085310c48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Lamp.mat using Guid(6a26c29b0186b3949a52130085310c48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a19eeb5f1055ca6cff2a749c6785ae5f') in 0.0315938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile01_R.TGA
+  artifactKey: Guid(300acc0be6e47024690a4baa38095d44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile01_R.TGA using Guid(300acc0be6e47024690a4baa38095d44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fba5d25bd0d86cd3f8c7f2392af9968f') in 0.0247882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime01_R.TGA
+  artifactKey: Guid(b8bb4830a55b4464fbf9f91f387148e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime01_R.TGA using Guid(b8bb4830a55b4464fbf9f91f387148e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd053b079fcd78f078bf25234b7c46d52') in 0.028224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Med_box_01.mat
+  artifactKey: Guid(5185afe064a3d8541a43d014b7ed46ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Med_box_01.mat using Guid(5185afe064a3d8541a43d014b7ed46ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a5766a1c62c8b4910f7a02af0504e19') in 0.0279673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile01_N.tga
+  artifactKey: Guid(9f55a5c8d4742cc47954204866783093) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile01_N.tga using Guid(9f55a5c8d4742cc47954204866783093) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '228a3a0dc1166fa871d51a18b9368a7c') in 0.0267702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Door_01_G.mat
+  artifactKey: Guid(52c326e58d79dae4b84c4fe3a0970284) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Door_01_G.mat using Guid(52c326e58d79dae4b84c4fe3a0970284) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87dc7d2a8ee2013ce873187f532b584e') in 0.0204724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile02_C.TGA
+  artifactKey: Guid(7b98973f5058c8d489993665865ac405) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile02_C.TGA using Guid(7b98973f5058c8d489993665865ac405) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c47878128a05afdab88a245790a48aa') in 0.0222779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_BedBedding_01.FBX
+  artifactKey: Guid(9909a7e3782d08b4490fb850b1ebd7fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_BedBedding_01.FBX using Guid(9909a7e3782d08b4490fb850b1ebd7fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2de53526475e94e7939038b0d381d7b7') in 0.0258606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Bed_01.prefab
+  artifactKey: Guid(2ca85dfd1a5ba8d45b36c20053b13142) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Prefab/P_Bed_01.prefab using Guid(2ca85dfd1a5ba8d45b36c20053b13142) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0b8606ac65047820d69892055b6d9b6') in 0.0188474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack
+  artifactKey: Guid(ef16bbfe5aa94a24bab8acbd0a9afef8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack using Guid(ef16bbfe5aa94a24bab8acbd0a9afef8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '454ecea99d8fdc7e885639209272ecef') in 0.0123508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Dnk_Dev
+  artifactKey: Guid(fe85c982f37652b4a91f26dda24265e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev using Guid(fe85c982f37652b4a91f26dda24265e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '615c5891758c99d11564eb0772219190') in 0.0129756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01_M.tga
+  artifactKey: Guid(b0d09a717c8c74d429116d820bcf49f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01_M.tga using Guid(b0d09a717c8c74d429116d820bcf49f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70e8323f0b065869e8d32592d8d5c034') in 0.0345814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack
+  artifactKey: Guid(ef16bbfe5aa94a24bab8acbd0a9afef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack using Guid(ef16bbfe5aa94a24bab8acbd0a9afef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce44ea2b2ae931cab69b3528660ed2a8') in 0.0010608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Floor_01.obj
+  artifactKey: Guid(3565346867580db48870fbcfd66de77b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Floor_01.obj using Guid(3565346867580db48870fbcfd66de77b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '099a43e7348d70b112ed1def2e506e12') in 0.0183304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp.png
+  artifactKey: Guid(7d080a928d4dfe9469d81fcb65783a4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp.png using Guid(7d080a928d4dfe9469d81fcb65783a4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '296ce7be38cb4a6ad35bbcf2714b6ec3') in 0.0251842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.342280 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Map_Hosp1.unity
+  artifactKey: Guid(b6ca1756db6b14945b4116ce8880ae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Map_Hosp1.unity using Guid(b6ca1756db6b14945b4116ce8880ae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d51c49fb41bcd4b0997a3a8f1f47ec0') in 0.0017417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.531142 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Bed_Metal_01s.mat
+  artifactKey: Guid(80cb81cea798afb43987837e11469c6f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Bed_Metal_01s.mat using Guid(80cb81cea798afb43987837e11469c6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ceeac7867c4788e0fcdaa7575c6e768') in 0.1629616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_BedBedding_AO.tga
+  artifactKey: Guid(9ff408b0cb141da43ba77e4a49f64c19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_BedBedding_AO.tga using Guid(9ff408b0cb141da43ba77e4a49f64c19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '90f467cc03d732f9cd36ec469d173547') in 0.3061301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Walllime01_C.mat
+  artifactKey: Guid(8a7f3e3f34602944ca9b0a89e0f7be30) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Walllime01_C.mat using Guid(8a7f3e3f34602944ca9b0a89e0f7be30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15c050ac921bbd817597b70f403a1517') in 0.3026304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Lamp_Off.mat
+  artifactKey: Guid(43e1eaee58e6e1f42a8e6d905a406298) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/Materials/Mat_Lamp_Off.mat using Guid(43e1eaee58e6e1f42a8e6d905a406298) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03590ae3bb233c07d338c637ba6ac645') in 0.18211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Med_box_01_M.tga
+  artifactKey: Guid(4b37689a686d65946bcdd617ca41bf1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Textures/T_Med_box_01_M.tga using Guid(4b37689a686d65946bcdd617ca41bf1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff43bbe7c481d8c1e5b008b343bdd367') in 0.25926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Module_DoorRoom_02.obj
+  artifactKey: Guid(2e7ceb9bdea64d749a31eaaf90027994) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Models/SM_Module_DoorRoom_02.obj using Guid(2e7ceb9bdea64d749a31eaaf90027994) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ae6429cf5c10ed3de6911bb184d5abf') in 0.2439923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.207938 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Game.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '497c7eaa22cb061a14181701cbd8c4f2') in 0.0163264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 490.323127 seconds.
+  path: Assets/Dnk_Dev/HospitalHorrorPack/Map_Hosp1.unity
+  artifactKey: Guid(b6ca1756db6b14945b4116ce8880ae82) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Dnk_Dev/HospitalHorrorPack/Map_Hosp1.unity using Guid(b6ca1756db6b14945b4116ce8880ae82) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88ea21a5c2a1fb3576e2c558e8fbc160') in 0.0165007 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 

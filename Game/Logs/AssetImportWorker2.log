@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nwond" at "2026-07-18T09:58:26.4770048Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nwond" at "2026-07-19T06:27:33.605187Z"
 OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'ko' Physical Memory: 16317 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-07-18T09:58:26Z
+Date: 2026-07-19T06:27:33Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe
@@ -13,11 +13,11 @@ C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/nwond/OneDrive/바탕 화면/Game
+C:/Users/nwond/OneDrive/바탕 화면/Anomalous/Game
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-64387
+59759
 -licensingIpc
 LicenseClient-nwond
 -job-worker-count
@@ -28,8 +28,8 @@ LicenseClient-nwond
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/nwond/OneDrive/바탕 화면/Game
-C:/Users/nwond/OneDrive/바탕 화면/Game
+Successfully changed project path to: C:/Users/nwond/OneDrive/바탕 화면/Anomalous/Game
+C:/Users/nwond/OneDrive/바탕 화면/Anomalous/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -65,39 +65,39 @@ C:/Users/nwond/OneDrive/바탕 화면/Game
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7340]  Target information:
+Player connection [21524]  Target information:
 
-Player connection [7340]  * "[IP] 192.168.219.101 [Port] 0 [Flags] 2 [Guid] 2177768864 [EditorId] 2177768864 [Version] 1048832 [Id] WindowsEditor(7,Dinosaur) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [21524]  * "[IP] 192.168.219.101 [Port] 0 [Flags] 2 [Guid] 468741907 [EditorId] 468741907 [Version] 1048832 [Id] WindowsEditor(7,Dinosaur) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [7340] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [7340] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21524] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21524] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 15832, path: "C:/Users/nwond/OneDrive/바탕 화면/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+Library Redirect Path: Library/
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 26152, path: "C:/Users/nwond/OneDrive/바탕 화면/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              7f93396f07024cab88254856f5a454c1
-  Correlation Id:          93fe48410b12a8243612e7c728fdd0c3
-  External correlation Id: 8990859670966142177
+  Session Id:              4b9008887a834934949c14d1e69c06eb
+  Correlation Id:          cef58ddb3993f1f59d021f07536c46c0
+  External correlation Id: 134037509219947574
   Machine Id:              vzHBHqQzprq0ab1zjqc1s15jH+s=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nwond" (connect: 0.00s, validation: 0.00s, handshake: 0.08s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nwond-notifications" at "2026-07-18T09:58:26.557457Z"
-[Licensing::Module] Licensing Background thread has ended after 0.08s
-Library Redirect Path: Library/
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-nwond" (connect: 0.00s, validation: 0.00s, handshake: 0.17s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-nwond-notifications" at "2026-07-19T06:27:33.7749218Z"
+[Licensing::Module] Licensing Background thread has ended after 0.17s
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 6.48 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 241.43 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/nwond/OneDrive/바탕 화면/Game/Assets
+[Subsystems] Discovering subsystems at path C:/Users/nwond/OneDrive/바탕 화면/Anomalous/Game/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 d3d12: failed to query info queue interface (0x80004002).
 Direct3D:
@@ -111,7 +111,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -125,45 +125,45 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.009670 seconds.
-- Loaded All Assemblies, in  0.440 seconds
+Registered in 0.015150 seconds.
+- Loaded All Assemblies, in  2.457 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 287 ms
+Android Extension - Scanning For ADB Devices 513 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.666 seconds
-Domain Reload Profiling: 1102ms
-	BeginReloadAssembly (144ms)
+- Finished resetting the current domain, in  1.148 seconds
+Domain Reload Profiling: 3596ms
+	BeginReloadAssembly (231ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (181ms)
-		LoadAssemblies (141ms)
+	RebuildCommonClasses (265ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (1845ms)
+		LoadAssemblies (226ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (176ms)
-			TypeCache.Refresh (175ms)
-				TypeCache.ScanAssembly (162ms)
+		AnalyzeDomain (1839ms)
+			TypeCache.Refresh (1836ms)
+				TypeCache.ScanAssembly (1391ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (667ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1149ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (622ms)
+		SetupLoadedEditorAssemblies (1085ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (396ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (106ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
+			InitializePlatformSupportModulesInManaged (719ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (162ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -173,479 +173,480 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.865 seconds
-Refreshing native plugins compatible for Editor in 2.36 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.218 seconds
+Refreshing native plugins compatible for Editor in 2.84 ms, found 4 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.45 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.49 ms, found 4 plugins.
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.748 seconds
-Domain Reload Profiling: 1607ms
-	BeginReloadAssembly (196ms)
+- Finished resetting the current domain, in  0.938 seconds
+Domain Reload Profiling: 2147ms
+	BeginReloadAssembly (260ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (563ms)
-		LoadAssemblies (409ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (832ms)
+		LoadAssemblies (514ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (269ms)
-			TypeCache.Refresh (205ms)
-				TypeCache.ScanAssembly (189ms)
-			BuildScriptInfoCaches (51ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (749ms)
+		AnalyzeDomain (474ms)
+			TypeCache.Refresh (405ms)
+				TypeCache.ScanAssembly (387ms)
+			BuildScriptInfoCaches (55ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (939ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (549ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (125ms)
-			ProcessInitializeOnLoadAttributes (352ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.36 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6572 unused Assets / (4.3 MB). Loaded Objects now: 7269.
-Memory consumption went from 141.8 MB to 137.6 MB.
-Total: 8.103800 ms (FindLiveObjects: 0.838400 ms CreateObjectMapping: 0.300800 ms MarkObjects: 4.386500 ms  DeleteObjects: 2.576700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 309.102014 seconds.
-  path: Assets/External Assets
-  artifactKey: Guid(216b50863e3bc1040a53981102597541) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/External Assets using Guid(216b50863e3bc1040a53981102597541) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0662327c504535d1df5357f0747dde6') in 0.1456492 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 151.588069 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.0008051 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.452050 seconds.
-  path: Assets/Video Players
-  artifactKey: Guid(0d44fbd50c87ae54aa433bfea784aeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Video Players using Guid(0d44fbd50c87ae54aa433bfea784aeca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58a4bf2d6620d7325e1960eb0ae1cb48') in 0.0005966 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.906558 seconds.
-  path: Assets/Video Players
-  artifactKey: Guid(0d44fbd50c87ae54aa433bfea784aeca) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Video Players using Guid(0d44fbd50c87ae54aa433bfea784aeca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8941c1ebbf8bf1996092584c3f1249d6') in 0.0123302 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 953.033354 seconds.
-  path: Assets/Video Players/Screen.mp4
-  artifactKey: Guid(7a7052fb086cf5e48bf88c3b47057a44) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Video Players/Screen.mp4 using Guid(7a7052fb086cf5e48bf88c3b47057a44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2ec9b99875c3e2e858afcc5af1dffe3') in 0.075037 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.330447 seconds.
-  path: Assets/Video Players/Screen.mp4
-  artifactKey: Guid(7a7052fb086cf5e48bf88c3b47057a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Video Players/Screen.mp4 using Guid(7a7052fb086cf5e48bf88c3b47057a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b4e3c76878106b7eac57901f2483f4d') in 0.0154502 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.086 seconds
-Refreshing native plugins compatible for Editor in 2.64 ms, found 4 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.875 seconds
-Domain Reload Profiling: 1957ms
-	BeginReloadAssembly (324ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (84ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (647ms)
-		LoadAssemblies (576ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (232ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (207ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (876ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (672ms)
+		SetupLoadedEditorAssemblies (687ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (155ms)
-			ProcessInitializeOnLoadAttributes (417ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
-			AfterProcessingInitializeOnLoad (13ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (445ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (16ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (34ms)
-Refreshing native plugins compatible for Editor in 3.46 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (19ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.30 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6568 unused Assets / (4.1 MB). Loaded Objects now: 7288.
-Memory consumption went from 149.4 MB to 145.4 MB.
-Total: 10.819300 ms (FindLiveObjects: 1.104700 ms CreateObjectMapping: 0.460200 ms MarkObjects: 6.422900 ms  DeleteObjects: 2.829600 ms)
+Unloading 6573 unused Assets / (4.8 MB). Loaded Objects now: 7271.
+Memory consumption went from 141.9 MB to 137.1 MB.
+Total: 10.158000 ms (FindLiveObjects: 1.095900 ms CreateObjectMapping: 0.752200 ms MarkObjects: 5.314800 ms  DeleteObjects: 2.993300 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 135.898512 seconds.
-  path: Assets/External Assets/Metrials/Light/ScreenBounceMat.mat
-  artifactKey: Guid(9d0a0f0d6028f8b40a61f8d53eb41d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Metrials/Light/ScreenBounceMat.mat using Guid(9d0a0f0d6028f8b40a61f8d53eb41d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07bc325da65a51e30a7286e80830aebb') in 0.6133016 seconds
+  Time since last request: 74054.744228 seconds.
+  path: Assets/Horror Pack/Textures/T_Door_01_A.tga
+  artifactKey: Guid(6a09d6b8923975e4b9af12a04e9d39fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Textures/T_Door_01_A.tga using Guid(6a09d6b8923975e4b9af12a04e9d39fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7bb54ac7337e89e2e283154743a29066') in 0.2747722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Horror Pack/Textures/T_Walllime01_R.TGA
+  artifactKey: Guid(b8bb4830a55b4464fbf9f91f387148e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Textures/T_Walllime01_R.TGA using Guid(b8bb4830a55b4464fbf9f91f387148e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52a5362756315561c1f9ab91cd39ee1a') in 0.0232185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Horror Pack/Textures/T_Door_01_MR.tga
+  artifactKey: Guid(ace021d20dc4fee42905fc84d876b02b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Textures/T_Door_01_MR.tga using Guid(ace021d20dc4fee42905fc84d876b02b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ff091cc90b0fce002287bc90aec5994') in 0.0269441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Horror Pack/Models/Materials/Mat_Door_01_G.mat
+  artifactKey: Guid(52c326e58d79dae4b84c4fe3a0970284) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Models/Materials/Mat_Door_01_G.mat using Guid(52c326e58d79dae4b84c4fe3a0970284) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ecd9eebf2fdad8d048732237b408a5f') in 0.0464479 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.337428 seconds.
-  path: Assets/External Assets/Meshs/Theater_Wall_poly.FBX
-  artifactKey: Guid(9daa51ada66ba39448fee8899276c278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Meshs/Theater_Wall_poly.FBX using Guid(9daa51ada66ba39448fee8899276c278) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e73da66fb012101c9c0592f113c6d5a') in 0.2594646 seconds
+  Time since last request: 0.000028 seconds.
+  path: Assets/Horror Pack/Models/SM_BedBedding_01.FBX
+  artifactKey: Guid(9909a7e3782d08b4490fb850b1ebd7fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Models/SM_BedBedding_01.FBX using Guid(9909a7e3782d08b4490fb850b1ebd7fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bad2d79717f0c813e8827c8320307a21') in 0.0635081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Horror Pack/Prefab/P_Bed_01.prefab
+  artifactKey: Guid(2ca85dfd1a5ba8d45b36c20053b13142) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Prefab/P_Bed_01.prefab using Guid(2ca85dfd1a5ba8d45b36c20053b13142) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6858f04e4ad76f7a2e8df6a39f60a159') in 0.0232082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Horror Pack/Textures/T_Bed_Metal_01_M.tga
+  artifactKey: Guid(b0d09a717c8c74d429116d820bcf49f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Textures/T_Bed_Metal_01_M.tga using Guid(b0d09a717c8c74d429116d820bcf49f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '544f19652dd93e9d01f21bec1c8491b5') in 0.0298536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Horror Pack/Prefab/P_Door_01_.prefab
+  artifactKey: Guid(df2f14ece3a3a0847aad4f1407b39c50) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Prefab/P_Door_01_.prefab using Guid(df2f14ece3a3a0847aad4f1407b39c50) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd06228c4adf62df3a3767312b33233ff') in 0.0193313 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/External Assets/Metrials/Theater_Wall.mat
-  artifactKey: Guid(2db543d0218394b4598a4164c41cea04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Metrials/Theater_Wall.mat using Guid(2db543d0218394b4598a4164c41cea04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '024cf49d152e6543eb67f3198dc3197d') in 0.023008 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/Horror Pack/Map_Hosp1
+  artifactKey: Guid(5d4737e6cac483f4bb71aab55612b97e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Map_Hosp1 using Guid(5d4737e6cac483f4bb71aab55612b97e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40ff833513e4dc705397860ab72eeacb') in 0.0139096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Horror Pack/Textures/T_BedBedding_AO.tga
+  artifactKey: Guid(9ff408b0cb141da43ba77e4a49f64c19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Textures/T_BedBedding_AO.tga using Guid(9ff408b0cb141da43ba77e4a49f64c19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b718d43fc5f17043261b0f42cfdfb5a7') in 0.0283478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Horror Pack/Prefab/P_Column_01.prefab
+  artifactKey: Guid(65968727b1724da49a554ba4d50f4ad4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Prefab/P_Column_01.prefab using Guid(65968727b1724da49a554ba4d50f4ad4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b9b194bd9ad30d0827087464ea369ea') in 0.0252539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Horror Pack/Models
+  artifactKey: Guid(dfcbaf66129769e43bf64d5b73ffa859) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Models using Guid(dfcbaf66129769e43bf64d5b73ffa859) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e339b2dd2bb3cde61887345f910b18a') in 0.016047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Horror Pack/Textures/T_Med_box_01_M.tga
+  artifactKey: Guid(4b37689a686d65946bcdd617ca41bf1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Textures/T_Med_box_01_M.tga using Guid(4b37689a686d65946bcdd617ca41bf1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '712f76693c6b9d8c37fb981d288d8175') in 0.0308928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.190055 seconds.
+  path: Assets/Horror Pack/Textures
+  artifactKey: Guid(94a7a00bb05fa2e44ab3dd420121b030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Textures using Guid(94a7a00bb05fa2e44ab3dd420121b030) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0899e0b643382c15dfa1f44bf1746695') in 0.0016048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056353 seconds.
+  path: Assets/Horror Pack/Textures/T_Bed_Metal_01.tga
+  artifactKey: Guid(6febee19ac762cf46aa78cebb2d48dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Textures/T_Bed_Metal_01.tga using Guid(6febee19ac762cf46aa78cebb2d48dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '745314d0e2fcb01bfc3e16c173c0907f') in 0.1044238 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.562865 seconds.
-  path: Assets/External Assets/Metrials/Screen/ScreenMat.mat
-  artifactKey: Guid(ea4d2ec37f268034285097a4b2baf785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Metrials/Screen/ScreenMat.mat using Guid(ea4d2ec37f268034285097a4b2baf785) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '294b7d0dea854884bf979c99cb600c06') in 0.0299417 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/Horror Pack/Textures/T_Tile01_R.TGA
+  artifactKey: Guid(300acc0be6e47024690a4baa38095d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Textures/T_Tile01_R.TGA using Guid(300acc0be6e47024690a4baa38095d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '888bfb5142454a1588a7f6bbf0678ae1') in 0.0398486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Horror Pack/Textures/T_Med_box_01.tga
+  artifactKey: Guid(71fcdacc93daf0e46bca8ddba2ef798f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Textures/T_Med_box_01.tga using Guid(71fcdacc93daf0e46bca8ddba2ef798f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99464ef4a040b297c140b96e8b795535') in 0.0210146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Horror Pack/Textures/T_Door_01_N.tga
+  artifactKey: Guid(1187c62cb03f7a243bd9b242817bc2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Textures/T_Door_01_N.tga using Guid(1187c62cb03f7a243bd9b242817bc2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '467a8f2304b0f039f95d828cf33f9517') in 0.0551656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Horror Pack/Textures/T_Tile02_R.TGA
+  artifactKey: Guid(dbe39981618f6f141b9a6aa20aa1ed9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Textures/T_Tile02_R.TGA using Guid(dbe39981618f6f141b9a6aa20aa1ed9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9fae2f72a65198a1303f24b43775168') in 0.0193557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Horror Pack/Textures/T_Door_01_G.png
+  artifactKey: Guid(1169160aab534cd4aaf32738057f4341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Textures/T_Door_01_G.png using Guid(1169160aab534cd4aaf32738057f4341) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6eb534f7eb8f195ee8eb03a7197b2543') in 0.0207089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Horror Pack/Textures/T_Tile02_C.TGA
+  artifactKey: Guid(7b98973f5058c8d489993665865ac405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Textures/T_Tile02_C.TGA using Guid(7b98973f5058c8d489993665865ac405) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d6d8bd92a7a59d638fd66c912ac3718') in 0.0196333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Horror Pack/Textures/T_Lamp_M.png
+  artifactKey: Guid(b86fb20848ffead4eae4033d276cac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Textures/T_Lamp_M.png using Guid(b86fb20848ffead4eae4033d276cac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f794c84f08ef925ccab2162e9746272') in 0.0225244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Horror Pack/Textures/T_BedBedding_AO.tga
+  artifactKey: Guid(9ff408b0cb141da43ba77e4a49f64c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Textures/T_BedBedding_AO.tga using Guid(9ff408b0cb141da43ba77e4a49f64c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '312a650230d788c00274baba9e4ea17f') in 0.0218163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Horror Pack/Textures/T_Bed_Metal_01_N.tga
+  artifactKey: Guid(ac78e263370d86646b803867f58812db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Textures/T_Bed_Metal_01_N.tga using Guid(ac78e263370d86646b803867f58812db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a22b8d0ef3e34ab5a8662447a1614d99') in 0.0220884 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/External Assets/Metrials/Theater_DarkWall.mat
-  artifactKey: Guid(7af375540438d364eb63d237a99444de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Metrials/Theater_DarkWall.mat using Guid(7af375540438d364eb63d237a99444de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f2f5db76379c34e1e94a3bcec008d4a') in 0.0209579 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/External Assets/Metrials/Theater_CeilingLine.mat
-  artifactKey: Guid(f39f191c660301f40a7761c381f2643e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Metrials/Theater_CeilingLine.mat using Guid(f39f191c660301f40a7761c381f2643e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4d154961a74ed4e531045e5febf23cd') in 0.0185538 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.077 seconds
-Refreshing native plugins compatible for Editor in 2.52 ms, found 4 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.849 seconds
-Domain Reload Profiling: 1919ms
-	BeginReloadAssembly (323ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (23ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (83ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (616ms)
-		LoadAssemblies (540ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (222ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (197ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (850ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (664ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (167ms)
-			ProcessInitializeOnLoadAttributes (404ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 4.03 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6569 unused Assets / (4.2 MB). Loaded Objects now: 7357.
-Memory consumption went from 156.5 MB to 152.3 MB.
-Total: 11.482000 ms (FindLiveObjects: 1.075200 ms CreateObjectMapping: 0.524000 ms MarkObjects: 6.749700 ms  DeleteObjects: 3.131800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 615.034383 seconds.
-  path: Assets/Video Players/Screen.mp4
-  artifactKey: Guid(7a7052fb086cf5e48bf88c3b47057a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Video Players/Screen.mp4 using Guid(7a7052fb086cf5e48bf88c3b47057a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '046970a3bae7cf63c777dfa8e5f165f0') in 0.0262655 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.906190 seconds.
-  path: Assets/Video Players/Screen.mp4
-  artifactKey: Guid(7a7052fb086cf5e48bf88c3b47057a44) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Video Players/Screen.mp4 using Guid(7a7052fb086cf5e48bf88c3b47057a44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32102619826f45d7ee7a2606f240768c') in 0.1743325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.987 seconds
-Refreshing native plugins compatible for Editor in 3.15 ms, found 4 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.866 seconds
-Domain Reload Profiling: 1847ms
-	BeginReloadAssembly (293ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (74ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (582ms)
-		LoadAssemblies (472ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (240ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (214ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (867ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (667ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (155ms)
-			ProcessInitializeOnLoadAttributes (405ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (30ms)
-Refreshing native plugins compatible for Editor in 3.28 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6568 unused Assets / (4.4 MB). Loaded Objects now: 7360.
-Memory consumption went from 156.4 MB to 151.9 MB.
-Total: 11.241400 ms (FindLiveObjects: 1.183800 ms CreateObjectMapping: 0.382100 ms MarkObjects: 7.020000 ms  DeleteObjects: 2.653900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.952 seconds
-Refreshing native plugins compatible for Editor in 2.55 ms, found 4 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.858 seconds
-Domain Reload Profiling: 1806ms
-	BeginReloadAssembly (266ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (581ms)
-		LoadAssemblies (478ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (230ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (204ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (859ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (657ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (147ms)
-			ProcessInitializeOnLoadAttributes (402ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (32ms)
-Refreshing native plugins compatible for Editor in 2.87 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6568 unused Assets / (4.0 MB). Loaded Objects now: 7363.
-Memory consumption went from 158.8 MB to 154.8 MB.
-Total: 8.206700 ms (FindLiveObjects: 0.968600 ms CreateObjectMapping: 0.382900 ms MarkObjects: 4.687100 ms  DeleteObjects: 2.167300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 223.306650 seconds.
-  path: Assets/External Assets/Metrials/Screen/AdjustScreen.mat
-  artifactKey: Guid(418844e3304af4f44a1a74507d08234f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Metrials/Screen/AdjustScreen.mat using Guid(418844e3304af4f44a1a74507d08234f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7af940da90abfaf33c27262c15dccba5') in 0.5084008 seconds
+  path: Assets/Horror Pack/Textures/T_Med_box_01_M.tga
+  artifactKey: Guid(4b37689a686d65946bcdd617ca41bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Textures/T_Med_box_01_M.tga using Guid(4b37689a686d65946bcdd617ca41bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b625872389f37a5bb0fbbe4df0fbedd') in 0.0207209 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/External Assets/Metrials/Screen/ScreenFace.mat
-  artifactKey: Guid(02adef9ce3024d5448e3a94af9ffe614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Metrials/Screen/ScreenFace.mat using Guid(02adef9ce3024d5448e3a94af9ffe614) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b9b5eb2a03fc0dcdb5c56974ea6f651') in 0.0130173 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 3.405578 seconds.
+  path: Assets/Horror Pack/Prefab/P_Bed_01.prefab
+  artifactKey: Guid(2ca85dfd1a5ba8d45b36c20053b13142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Prefab/P_Bed_01.prefab using Guid(2ca85dfd1a5ba8d45b36c20053b13142) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8744c57e4ccd779faef110bbdd58c8c6') in 0.6290015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.411519 seconds.
-  path: Assets/External Assets/Metrials/Door.mat
-  artifactKey: Guid(daa9e5856c364714d975776927d589b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Metrials/Door.mat using Guid(daa9e5856c364714d975776927d589b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf448f736f942178bd3ea9c8ffb00553') in 0.0205849 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.120034 seconds.
-  path: Assets/External Assets/Prefabs/theater_ChairLow.prefab
-  artifactKey: Guid(0f7557140be19b74a93b5a8bd769db81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Prefabs/theater_ChairLow.prefab using Guid(0f7557140be19b74a93b5a8bd769db81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db6b6f7bcfca25312004fa045ef9063c') in 0.0390231 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/External Assets/Prefabs/WallLight00.prefab
-  artifactKey: Guid(26c6249271175d84a84b520657f1cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Prefabs/WallLight00.prefab using Guid(26c6249271175d84a84b520657f1cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fede9bcbab97de25379cb75243d60737') in 0.0251019 seconds
+  Time since last request: 0.000048 seconds.
+  path: Assets/Horror Pack/Prefab/P_Wall_02.prefab
+  artifactKey: Guid(a71dd1fa6efddfa41990980cd044de47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Prefab/P_Wall_02.prefab using Guid(a71dd1fa6efddfa41990980cd044de47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a68f54865e35e4877025734a557627e') in 0.0360934 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.025022 seconds.
-  path: Assets/External Assets/Textures/Movie
-  artifactKey: Guid(50864ba509fef744e9124b7b6e1007a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Textures/Movie using Guid(50864ba509fef744e9124b7b6e1007a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a907cc448d1662678bdbd7cfeec027a8') in 0.0006933 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000045 seconds.
+  path: Assets/Horror Pack/Prefab/P_Med_box_01.prefab
+  artifactKey: Guid(eeefdd9044a28504abd5e39c9e8fe5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Prefab/P_Med_box_01.prefab using Guid(eeefdd9044a28504abd5e39c9e8fe5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47f632aac2ab293656229ad9beef0445') in 0.0390135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.014876 seconds.
-  path: Assets/External Assets/Textures/Movie/adam_episode_2_the_mirror_trailer_1080p.mp4
-  artifactKey: Guid(0f706ea809fac144586c7aaff0ec8bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Textures/Movie/adam_episode_2_the_mirror_trailer_1080p.mp4 using Guid(0f706ea809fac144586c7aaff0ec8bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29cf88837e721989020371e1271f4e41') in 0.0013491 seconds
+  Time since last request: 0.000038 seconds.
+  path: Assets/Horror Pack/Prefab/P_Lamp.prefab
+  artifactKey: Guid(dc8f3955c063af240afd23143f496335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Prefab/P_Lamp.prefab using Guid(dc8f3955c063af240afd23143f496335) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a2aa0cdf30b70bb50c2434ef6836f72') in 0.1272924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Horror Pack/Prefab/P_Door_01_.prefab
+  artifactKey: Guid(df2f14ece3a3a0847aad4f1407b39c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Prefab/P_Door_01_.prefab using Guid(df2f14ece3a3a0847aad4f1407b39c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d4ef57578b9e30ddfef259692e0cc82') in 0.1395212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Horror Pack/Prefab/P_Wall_01.prefab
+  artifactKey: Guid(a73967be39a7cc74ca310e8a9d9de82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Prefab/P_Wall_01.prefab using Guid(a73967be39a7cc74ca310e8a9d9de82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7568c485f886d73f7cb377ccc7db7bd4') in 0.0417535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Horror Pack/Models/Materials/Mat_Bed_Metal_01s.mat
+  artifactKey: Guid(80cb81cea798afb43987837e11469c6f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Models/Materials/Mat_Bed_Metal_01s.mat using Guid(80cb81cea798afb43987837e11469c6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd6766c2b62ccf3fdca546e05b16177ee') in 0.0407298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Horror Pack/Prefab/P_Floor_02.prefab
+  artifactKey: Guid(695e9c39c231cfa41a135e68073a9772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Prefab/P_Floor_02.prefab using Guid(695e9c39c231cfa41a135e68073a9772) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b26aff3283d5dcb71a89bdbae682a93a') in 0.0462847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Horror Pack/Prefab/P_Floor_01.prefab
+  artifactKey: Guid(b826295956c65444987d7baae67c5858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Prefab/P_Floor_01.prefab using Guid(b826295956c65444987d7baae67c5858) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b38d0ebf2424bab8ea372c44c0a7e5a') in 0.0359943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Horror Pack/Prefab/P_Column_01.prefab
+  artifactKey: Guid(65968727b1724da49a554ba4d50f4ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Prefab/P_Column_01.prefab using Guid(65968727b1724da49a554ba4d50f4ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cbe79339c8ec8c8492c2b41f88d5862') in 0.0386786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Horror Pack/Prefab/P_Door_01_Base.prefab
+  artifactKey: Guid(6d0f69892e260164b9b56372f7556fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Prefab/P_Door_01_Base.prefab using Guid(6d0f69892e260164b9b56372f7556fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e8dff120ec483ae6bb734495f17ebf1') in 0.0408495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Horror Pack/Prefab/P_Module_DoorRoom_01.prefab
+  artifactKey: Guid(3889b3008743b404aba704ca0f2f2989) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Prefab/P_Module_DoorRoom_01.prefab using Guid(3889b3008743b404aba704ca0f2f2989) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a8cce9e5f4ad44e75bcb8fd0162d867') in 0.0197418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Horror Pack/Models/SM_Module_DoorRoom_02.obj
+  artifactKey: Guid(2e7ceb9bdea64d749a31eaaf90027994) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Models/SM_Module_DoorRoom_02.obj using Guid(2e7ceb9bdea64d749a31eaaf90027994) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d2e77d6ac8d51858fff2f40db601167') in 0.0465173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Horror Pack/Textures/T_Tile03_N.tga
+  artifactKey: Guid(ebc9188e67cba8944bb3818d0e18fca7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Textures/T_Tile03_N.tga using Guid(ebc9188e67cba8944bb3818d0e18fca7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '944fe71cec4c4808844c703dee333efd') in 0.030473 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.872864 seconds.
-  path: Assets/External Assets/Textures/Fx/BlobShadow00.png
-  artifactKey: Guid(50157f8221e30884e86a32ea595d43d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Textures/Fx/BlobShadow00.png using Guid(50157f8221e30884e86a32ea595d43d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
- -> (artifact id: '77ab1df28802f5d87b9e4fc52ffe947d') in 0.095325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000053 seconds.
+  path: Assets/Horror Pack/Prefab/P_Module_DoorRoom_02.prefab
+  artifactKey: Guid(7e4b8910ee9acf842b022199caf324c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Prefab/P_Module_DoorRoom_02.prefab using Guid(7e4b8910ee9acf842b022199caf324c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c62026af578b97b36845c7f217ac8c58') in 0.0921915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/External Assets/Textures/Fx/Eff_GlowDot001.png
-  artifactKey: Guid(45356b064ff941148b4e8dd1813bf8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Textures/Fx/Eff_GlowDot001.png using Guid(45356b064ff941148b4e8dd1813bf8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fee0cf37f217f29cdccc0d363bc600a') in 0.0437025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000051 seconds.
+  path: Assets/Horror Pack/Textures/T_Tile02_N.tga
+  artifactKey: Guid(2c2941ed45c0e7f4486cb3adc97f188e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Textures/T_Tile02_N.tga using Guid(2c2941ed45c0e7f4486cb3adc97f188e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e017f30b34b0568fc00930a5905cbcf') in 0.0291224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.391072 seconds.
-  path: Assets/External Assets/Textures/Cookie/ScreenBounceRT.renderTexture
-  artifactKey: Guid(e1fafe2bfc070a540979aef4e219934b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/External Assets/Textures/Cookie/ScreenBounceRT.renderTexture using Guid(e1fafe2bfc070a540979aef4e219934b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff28fa9a64ba72eeff6da571b4621811') in 0.0248543 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000039 seconds.
+  path: Assets/Horror Pack/Models/SM_Med_box_01.FBX
+  artifactKey: Guid(18ce9342c786442408d15b750748b72c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Models/SM_Med_box_01.FBX using Guid(18ce9342c786442408d15b750748b72c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9167757e30054658288095b5219bdc42') in 0.0263826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.693428 seconds.
+  path: Assets/Horror Pack/Models/SM_Bed_01.FBX
+  artifactKey: Guid(efb3f1e9df15fc34d82fd632fb94d875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Models/SM_Bed_01.FBX using Guid(efb3f1e9df15fc34d82fd632fb94d875) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '672e2f832184c881433bd7d165e7e7c5') in 0.1248458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Horror Pack/Models/SM_Module_DoorRoom_02.obj
+  artifactKey: Guid(2e7ceb9bdea64d749a31eaaf90027994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Models/SM_Module_DoorRoom_02.obj using Guid(2e7ceb9bdea64d749a31eaaf90027994) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85c798ab8a2ab8a405e5b8dfac4c98e2') in 0.1490573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Horror Pack/Models/SM_Door_01.obj
+  artifactKey: Guid(8c088c51437f8e84c8ccf368945d30c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Models/SM_Door_01.obj using Guid(8c088c51437f8e84c8ccf368945d30c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afc4922661549cde7da39c59d33234ae') in 0.0688658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Horror Pack/Models/SM_Wall_02.obj
+  artifactKey: Guid(2e7a8487ab4626741848c28337daebd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Models/SM_Wall_02.obj using Guid(2e7a8487ab4626741848c28337daebd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62c4c9e47a42e63500992c54e95a58ec') in 0.0533867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.111106 seconds.
+  path: Assets/Horror Pack/Models/Materials
+  artifactKey: Guid(0ae0ec82d0397174183a4c45753b8873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Models/Materials using Guid(0ae0ec82d0397174183a4c45753b8873) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bcec3b9974fd131dd94cb828f0e2d4e') in 0.0009106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Horror Pack/Models/Materials/M_BedBedding.mat
+  artifactKey: Guid(96ad2410114456e40aa2cc44f2fe16c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Models/Materials/M_BedBedding.mat using Guid(96ad2410114456e40aa2cc44f2fe16c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ea39d3687f8d250f903d8a170615713') in 0.1267348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Horror Pack/Models/Materials/Mat_Door_01_G.mat
+  artifactKey: Guid(52c326e58d79dae4b84c4fe3a0970284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Models/Materials/Mat_Door_01_G.mat using Guid(52c326e58d79dae4b84c4fe3a0970284) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9592f228301ae32f93b230fc0a2d2213') in 0.0276472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Horror Pack/Models/Materials/Mat_Door_01.mat
+  artifactKey: Guid(a79fd100eebc3e946a5d6df1a792fe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Models/Materials/Mat_Door_01.mat using Guid(a79fd100eebc3e946a5d6df1a792fe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96fd2fb4f23b983396fccaad088fa2a6') in 0.0383967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Horror Pack/Models/Materials/Mat_Tile01.mat
+  artifactKey: Guid(c062415a802b2f846916a90dadc80f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Models/Materials/Mat_Tile01.mat using Guid(c062415a802b2f846916a90dadc80f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eca0dadfb587fecef469235cd0fcc8e5') in 0.0376399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Horror Pack/Models/Materials/Mat_Med_box_01.mat
+  artifactKey: Guid(5185afe064a3d8541a43d014b7ed46ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Models/Materials/Mat_Med_box_01.mat using Guid(5185afe064a3d8541a43d014b7ed46ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '775c6cbb580a4900ea61cc8016e7fa3d') in 0.0378267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.006 seconds
-Refreshing native plugins compatible for Editor in 2.85 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.143 seconds
+Refreshing native plugins compatible for Editor in 3.20 ms, found 4 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -654,44 +655,299 @@ Native extension for WebGL target not found
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.890 seconds
-Domain Reload Profiling: 1891ms
-	BeginReloadAssembly (301ms)
+- Finished resetting the current domain, in  0.975 seconds
+Domain Reload Profiling: 2106ms
+	BeginReloadAssembly (338ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (30ms)
+		DisableScriptedObjects (28ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (70ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (594ms)
-		LoadAssemblies (480ms)
+		CreateAndSetChildDomain (91ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (682ms)
+		LoadAssemblies (578ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (247ms)
+		AnalyzeDomain (249ms)
 			TypeCache.Refresh (10ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (218ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (890ms)
+			BuildScriptInfoCaches (221ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (975ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (694ms)
+		SetupLoadedEditorAssemblies (762ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (164ms)
-			ProcessInitializeOnLoadAttributes (437ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (219ms)
+			ProcessInitializeOnLoadAttributes (446ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Refreshing native plugins compatible for Editor in 3.74 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 4.62 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6569 unused Assets / (3.9 MB). Loaded Objects now: 7389.
-Memory consumption went from 156.7 MB to 152.8 MB.
-Total: 10.723700 ms (FindLiveObjects: 1.210800 ms CreateObjectMapping: 0.590900 ms MarkObjects: 6.247000 ms  DeleteObjects: 2.673800 ms)
+Unloading 6570 unused Assets / (4.7 MB). Loaded Objects now: 7360.
+Memory consumption went from 158.9 MB to 154.2 MB.
+Total: 12.489800 ms (FindLiveObjects: 1.328700 ms CreateObjectMapping: 0.593900 ms MarkObjects: 6.532700 ms  DeleteObjects: 4.032400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.999 seconds
+Refreshing native plugins compatible for Editor in 3.46 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.917 seconds
+Domain Reload Profiling: 1911ms
+	BeginReloadAssembly (272ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (619ms)
+		LoadAssemblies (538ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (191ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (918ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (719ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (175ms)
+			ProcessInitializeOnLoadAttributes (436ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 3.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6569 unused Assets / (4.7 MB). Loaded Objects now: 7363.
+Memory consumption went from 161.2 MB to 156.5 MB.
+Total: 11.468500 ms (FindLiveObjects: 1.257600 ms CreateObjectMapping: 0.922500 ms MarkObjects: 5.395200 ms  DeleteObjects: 3.891700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.76 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6557 unused Assets / (4.6 MB). Loaded Objects now: 7363.
+Memory consumption went from 163.9 MB to 159.3 MB.
+Total: 13.219000 ms (FindLiveObjects: 1.264900 ms CreateObjectMapping: 1.172800 ms MarkObjects: 6.528000 ms  DeleteObjects: 4.252100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.210 seconds
+Refreshing native plugins compatible for Editor in 3.54 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.982 seconds
+Domain Reload Profiling: 2184ms
+	BeginReloadAssembly (327ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (746ms)
+		LoadAssemblies (624ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (279ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (246ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (983ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (763ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (200ms)
+			ProcessInitializeOnLoadAttributes (454ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 3.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6569 unused Assets / (4.6 MB). Loaded Objects now: 7366.
+Memory consumption went from 166.3 MB to 161.7 MB.
+Total: 10.160100 ms (FindLiveObjects: 1.146400 ms CreateObjectMapping: 0.467600 ms MarkObjects: 5.499700 ms  DeleteObjects: 3.044700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.980 seconds
+Refreshing native plugins compatible for Editor in 3.62 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.872 seconds
+Domain Reload Profiling: 1845ms
+	BeginReloadAssembly (263ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (610ms)
+		LoadAssemblies (523ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (192ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (872ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (674ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (408ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 4.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6569 unused Assets / (4.4 MB). Loaded Objects now: 7369.
+Memory consumption went from 168.9 MB to 164.5 MB.
+Total: 12.702900 ms (FindLiveObjects: 1.060600 ms CreateObjectMapping: 0.627200 ms MarkObjects: 7.511500 ms  DeleteObjects: 3.501700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 464.488462 seconds.
+  path: Assets/Horror Pack/Map_Hosp1/LightingData.asset
+  artifactKey: Guid(d2113f1c55e9a5747883139522a6c5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Map_Hosp1/LightingData.asset using Guid(d2113f1c55e9a5747883139522a6c5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ed8d22a6143d55425ac0d07d2dde9e9') in 0.0402796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.849040 seconds.
+  path: Assets/Horror Pack/Map_Hosp1.unity
+  artifactKey: Guid(b6ca1756db6b14945b4116ce8880ae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Map_Hosp1.unity using Guid(b6ca1756db6b14945b4116ce8880ae82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d12e3d4b44fd93ec144db7990c909cc') in 0.0008524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.570827 seconds.
+  path: Assets/Horror Pack/Map_Hosp1Settings.lighting
+  artifactKey: Guid(a11ce9533a58ee04c8ab50deabd223cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Map_Hosp1Settings.lighting using Guid(a11ce9533a58ee04c8ab50deabd223cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '312b23d159b1ca73b9d58807ffb1a69a') in 0.0031567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.732377 seconds.
+  path: Assets/Scripts/Character/Character.cs
+  artifactKey: Guid(11aa9ff617898a7489bc963d01539dcf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Character/Character.cs using Guid(11aa9ff617898a7489bc963d01539dcf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db52b6ba9ef9c4065192d54ec7dbf1d3') in 0.194801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.525552 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Game.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ebc4b07e4d18fa38da61a40c3a970241') in 0.0185095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.471659 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6903dbfdffb4a423e45f007c80594f79') in 0.0007773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.479859 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '711ab35ed55aad03a5579ac8757acb0d') in 0.0008409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.531454 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Game.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83328fff195b9dadb2c7be00a825d967') in 0.0157873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.643688 seconds.
+  path: Assets/Horror Pack/Map_Hosp1
+  artifactKey: Guid(5d4737e6cac483f4bb71aab55612b97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Horror Pack/Map_Hosp1 using Guid(5d4737e6cac483f4bb71aab55612b97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f92a79778afd043b0c3198e595cd32db') in 0.0006496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 371.463669 seconds.
+  path: Assets/Horror Pack/Map_Hosp1/LightingData.asset
+  artifactKey: Guid(d2113f1c55e9a5747883139522a6c5dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Horror Pack/Map_Hosp1/LightingData.asset using Guid(d2113f1c55e9a5747883139522a6c5dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49074d003a33d843a047586f3a67634d') in 0.0258559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
