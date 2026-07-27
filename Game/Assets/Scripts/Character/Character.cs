@@ -20,7 +20,7 @@ public class Character : MonoBehaviour
         direction.z = Input.GetAxisRaw("Vertical");
 
         direction.Normalize();
-        
+
         characterController.Move(transform.TransformDirection(direction) * speed * Time.deltaTime);
     }
 }
